@@ -1,0 +1,23 @@
+﻿Build started 10/9/2020 3:00:50 AM.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\delan\Desktop\SFTM_Hangman\SFTM_Hangman\SFTM_Hangman.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\delan\Desktop\SFTM_Hangman\Debug\".
+         Creating directory "Debug\SFTM_Hangman.tlog\".
+       InitializeBuildStatus:
+         Creating "Debug\SFTM_Hangman.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt SFTM_Hangman.cpp
+         SFTM_Hangman.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\delan\Desktop\SFTM_Hangman\Debug\SFTM_Hangman.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\delan\Desktop\SFTM_Hangman\Debug\SFTM_Hangman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\delan\Desktop\SFTM_Hangman\Debug\SFTM_Hangman.lib" /MACHINE:X86 Debug\SFTM_Hangman.obj
+         SFTM_Hangman.vcxproj -> C:\Users\delan\Desktop\SFTM_Hangman\Debug\SFTM_Hangman.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SFTM_Hangman.tlog\unsuccessfulbuild".
+         Touching "Debug\SFTM_Hangman.tlog\SFTM_Hangman.lastbuildstate".
+     1>Done Building Project "C:\Users\delan\Desktop\SFTM_Hangman\SFTM_Hangman\SFTM_Hangman.vcxproj" (Build target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.83
