@@ -63,11 +63,19 @@ int main()
     int secondCount = 0;
     int thirdCount = 0;
     if (textFile) {
-        //check first word
+        //check zeroth word
+        //b somewhere in there
+        //no punctuation
         while (getline(textFile, line)) {
             if (line.length() == strlen(word0)) {
-                cout << line << "\n";
-                firstCount++;
+                if (line.at(1) == 'u' && 
+                    line.find('b') != string::npos && 
+                    line.find('-') == string::npos &&
+                    line.find('\'') == string::npos &&
+                    line.find('.') == string::npos) {
+                    cout << line << "\n";
+                    firstCount++;
+                }
             }
 
         }
@@ -77,7 +85,7 @@ int main()
     textFile.clear();
     textFile.open("wordsLower.txt");
     if (textFile) {
-        //check second word
+        //check first word
         while (getline(textFile, line)) {
             if (line.length() == strlen(word1)) {
                 if (line.at(0) == 'a') {
@@ -95,9 +103,16 @@ int main()
     textFile.open("wordsLower.txt");
     if (textFile) {
         //check second word
+        //b in slot 4
+        //p in slot 1
+        //no puncuation
         while (getline(textFile, line)) {
             if (line.length() == strlen(word2)) {
-                if (line.at(3) == 'b') {
+                if (line.at(3) == 'b' && 
+                    line.at(0) == 'p'&& 
+                    line.find('-') == string::npos &&
+                    line.find('\'') == string::npos &&
+                    line.find('.') == string::npos) {
                     cout << "\t\t" << line << "\n";
                     thirdCount++;
                 }

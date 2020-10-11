@@ -1,9 +1,6 @@
-﻿Build started 10/9/2020 3:00:50 AM.
+﻿Build started 10/11/2020 10:02:47 AM.
 Logging verbosity is set to: Normal.     1>Project "C:\Users\delan\Desktop\SFTM_Hangman\SFTM_Hangman\SFTM_Hangman.vcxproj" on node 2 (Build target(s)).
-     1>PrepareForBuild:
-         Creating directory "C:\Users\delan\Desktop\SFTM_Hangman\Debug\".
-         Creating directory "Debug\SFTM_Hangman.tlog\".
-       InitializeBuildStatus:
+     1>InitializeBuildStatus:
          Creating "Debug\SFTM_Hangman.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt SFTM_Hangman.cpp
@@ -20,4 +17,4 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:03.83
+Time Elapsed 00:00:01.96
